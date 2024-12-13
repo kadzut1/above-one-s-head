@@ -1,0 +1,163 @@
+/* Стили для header */
+.header {
+
+  display: flex;
+  justify-content: space-around;
+
+  padding: 15px 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  background-color: #ff6a00;
+  color: white;
+  width: 130px;
+  border-radius: 20px;
+  height: 50PX;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 42px;
+  font-weight: bold;
+   /* Оранжевый цвет для логотипа */
+
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 250px; /* Устанавливаем фиксированную ширину */
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-button {
+  padding: 10px 15px;
+  background-color: #ff6a00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #ff6a00;
+}
+
+.city-selector {
+  position: relative;
+}
+
+.city-dropdown {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: 200px;
+  z-index: 10;
+}
+
+.city-item {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.city-item:hover {
+  background-color: #f0f0f0;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 15px;
+
+
+}
+
+.login, .favorites, .register-form button {
+  padding: 10px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+
+}
+
+.login {
+
+  background-color: #ff6a00;
+  color: rgb(253, 253, 253);
+}
+
+.login:hover {
+  background-color: #ff6a00;
+}
+
+.favorites {
+  background-color: #ff6a00;
+  color: white;
+}
+
+.favorites:hover {
+  background-color: #e65c00;
+}
+
+/* Форма регистрации и входа */
+.login-form, .register-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 30px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.login-form input, .register-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.login-form button, .register-form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background-color: #e65c00;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover, .register-form button:hover {
+  background-color: #e65c00;
+}
+
+.login-form button[type="button"], .register-form button[type="button"] {
+  background-color: #f44336;
+}
+
+.login-form button[type="button"]:hover, .register-form button[type="button"]:hover {
+  background-color: #d32f2f;
+}

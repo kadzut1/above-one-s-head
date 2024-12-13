@@ -1,0 +1,48 @@
+
+
+  .img-card {
+    background-image: url('../assets/vl.ru.jpg');
+    background-size: cover; /* Лучше использовать cover для сохранения пропорций */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 1200px; 
+    height: 400px; /* Высота карточек */
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  
+    &:hover {
+      transform: scale(1.05);
+     
+    }
+  
+    &__image img {
+      width: auto; /* Задать 100%, чтобы изображение занимало всю ширину карточки */
+      align-items: a; /* Позволить изображению сохранять свои пропорции */
+      border-radius: 10px 10px 0 0;
+    }
+  
+    &__info {
+      
+      width: 200px;
+      padding: 15px;
+    }
+  
+    &__name {
+    
+      font-size: 18px;
+      margin-bottom: 8px;
+      height: 50px;
+      width: 200px;
+    }
+  
+    &__date {
+      font-size: 14px;
+      color: #888;
+    }
+  }
+  

@@ -1,0 +1,58 @@
+
+.date-selector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-image: url('../assets/survey/Вопрос\ 9.png');
+  background-size: cover; /* Оранжевый цвет, похожий на стиль DNS */
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  flex-direction: column;
+}
+
+.countdown-container {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный черный фон для контента */
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+
+}
+
+.countdown-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.countdown-timer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.countdown-item {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.countdown-number {
+  font-size: 48px;
+  color: #ff6a00; /* Оранжевый цвет */
+}
+
+.countdown-label {
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.footer-message {
+  font-size: 16px;
+  font-weight: normal;
+  color: #fff;
+  margin-top: 10px;
+  opacity: 0.8;
+}

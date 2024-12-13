@@ -1,0 +1,28 @@
+/* Основной контейнер приложения */
+.app {
+  display: flex;
+  flex-direction: column; /* Устанавливаем вертикальный флекс-контейнер */
+  min-height: 100vh; /* Делаем высоту контейнера равной высоте экрана */
+}
+
+header {
+  background-color: #f0f0f0;
+}
+
+.main-container {
+  flex-grow: 1; /* Заставляет главный контент занимать всю оставшуюся высоту */
+  display: flex;
+  flex-direction: column;
+}
+
+.product-search-section {
+  margin-bottom: 20px;
+}
+
+.recommendations-section {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #312f2f;
+}

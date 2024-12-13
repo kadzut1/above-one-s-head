@@ -1,0 +1,42 @@
+.event-category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.event-category__title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.event-category__container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.event-category__list {
+  
+  display: flex;
+  padding-bottom: 90px;
+  gap: 20px;
+}
+
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
